@@ -1,7 +1,8 @@
 # User API - Spring Boot (Java 17) - HSQLDB - OpenJPA - JWT - Maven 
 
 ## Run
-UserCreationApplication.java
+mvn clean install
+mvn spring-boot:run
 
 ## Endpoints
 POST /user/register - register
@@ -10,7 +11,7 @@ GET  /user/{id}   - get by id
 PUT  /user/{id}   - update
 DELETE /user/{id} - delete
 
-
+Probar a traves de Swagger
 Swagger UI: http://localhost:8080/swagger-ui.html
 
 - Registrar un usuario con este Body por ejemplo
