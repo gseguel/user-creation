@@ -1,4 +1,8 @@
 # User API - Spring Boot (Java 17) - HSQLDB - OpenJPA - JWT - Maven 
+El proyecto contiene en resources:
+
+- Schema.sql
+- Diectorio de diagramas
 
 ## Run
 mvn clean install
